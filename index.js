@@ -12,11 +12,11 @@ const items = [
 ];
 
 // Track quantity of each item
-const quantities = [0, 0, 0];
+const quantities = [0, 0, 0, 0];
 
 // Store li elements for each item (so we can update them)
 const cartList = document.querySelector("#big-item ul");
-const cartLines = [null, null, null];
+const cartLines = [null, null, null, null];
 
 buttons.forEach((button, index) => {
     button.addEventListener("click", () => {

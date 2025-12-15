@@ -7,7 +7,8 @@ const buttons = document.querySelectorAll(".add-button");
 const items = [
     { name: "Chair", price: 15 },
     { name: "Table", price: 30 },
-    { name: "Desk",  price: 20 }
+    { name: "Desk",  price: 20 },
+    { name: "Couch", price: 50 }
 ];
 
 // Track quantity of each item

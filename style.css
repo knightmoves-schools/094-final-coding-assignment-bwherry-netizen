@@ -1,1 +1,29 @@
-/* Put your code here */
+/* Big centered item */
+        #big-item {
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 50px;
+            border-radius: 15px;
+            border-color: #682523;
+            border-style: groove;
+            background-color: darkgoldenrod;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-25%, -50%); /* horizontaly center it */
+            width: 600px;
+            height: 400px;
+
+            display: flex;
+            flex-direction: column; /* stack content vertically */
+            justify-content: space-between; /* top text at top, cost at bottom */
+            padding: 20px;
+        }
+
+        .item-img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover; /* keeps the image looking good */
+            border-radius: 10px;
+        }
+ /* Put your code here */

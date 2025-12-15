@@ -19,11 +19,3 @@
             justify-content: space-between; /* top text at top, cost at bottom */
             padding: 20px;
         }
-
-        .item-img {
-            width: 100px;
-            height: 100px;
-            object-fit: cover; /* keeps the image looking good */
-            border-radius: 10px;
-        }
- /* Put your code here */
